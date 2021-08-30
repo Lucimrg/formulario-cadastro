@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    font-family: Arial;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 1em;
+    color: #000000;
+  }
+
+.titulo {
+    font-family: Arial;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+  }
+
+ fieldset {
+     border: 0;
+     background-color: rgb(255, 255, 255);
+     margin: 0;
+     margin-right: 25%;
+     padding-top: 0;
+     border-radius: 15px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+ }
+
+ input[type="text"], input[type="number"], input[type="email"], input[type="tel"], select{
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-indent: 5px;
+ }
+
+ button {
+     border-radius: 15px 15px 15px 15px;
+     width: 90%;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+     background-color: #33ccff;
+     padding: 7px;
+     cursor:pointer;
+     border: 1px;
+     margin-left: 5%;
+     margin-top: 3%;
+ }
+
+ button:hover {
+     background-color: #ff99cc;
+     cursor:pointer;
+     transition: 1s;
+ }
+
+ select:hover{
+     cursor: grab;
+ }
+
+ input[type="radio"]{
+     cursor: pointer;
+ }
+
+ header {
+     background-color: violet;
+     margin-top: 0;
+ }
+
+ input,label {
+    display: block;
+}
+
+ .caixa{
+    padding: 3px 0px 3px 0px;
+    box-sizing: border-box;
+ }
+
+
+ div {
+    display: inline-block;
+    padding-top: 0.9%;
+}
+
+/**#div_nome, #div_cargo, #div_data, #div_genero, #div_estado_civil, #div_celular, #div_telefone, 
+#div_email, #div_cep, #div_endereco, #div_bairro, #div_cidade, #div_estado, #div_cpf, #div_rg,
+#div_habilitacao, #div_veiculo, #div_numero, #div_complemento{
+    position: absolute;
+}**/
+
+ #div_nome{
+    margin-left: 5%;
+    margin-right: 30%;
+ }
+
+ #nome{
+     width: 250%;
+ }
+
+ #div_cargo{
+  margin-left: 10%;  
+ }
+
+ #cargo{
+     width: 115%;
+ }
+
+ #div_data {
+    margin-left: 5%;
+    width:250px;
+ }
+
+
+#dia{
+    width: 50px;
+}
+
+#mes{
+    width: 100px;
+}
+
+#ano{
+    width: 60px;
+}
+
+ #div_genero {
+    margin-left: 1%
+ }
+
+#genero{
+    width: 115%;
+}
+
+ #div_estado_civil {
+    margin-left: 8%;
+ }
+
+ #estado_civil{
+     width: 190%;
+ }
+
+ #div_celular{
+    margin-left: 5%;
+ }
+
+#celular, #telefone{
+    width: 80%;
+}
+
+#div_telefone{
+    margin-left: 11.5%;
+}
+
+#div_email{
+    margin-left: 6%;
+}
+
+#email{
+    width: 114%;
+}
+
+ #div_cep {
+    margin-left: 5%;
+ }
+
+ #cep, #numero_casa{
+     width:50%;
+ }
+
+ #div_endereco, #div_complemento {
+    margin-left: 11.5%;
+    margin-right: 20%;
+ }
+
+ #endereco {
+     width: 245%;
+ }
+
+ #div_numero{
+    margin-left: 5%;
+ }
+
+ #complemento{
+     width: 245%;
+ }
+
+ #div_bairro{
+    margin-left: 5%;
+ }
+
+ #div_cidade{
+    margin-left: 11.5%;
+ }
+
+ #div_estado{
+    margin-left:9%;
+ }
+
+ #div_cpf{
+    margin-left: 5%;
+ }
+
+ #cpf{
+     width: 80%;
+ }
+
+ #div_rg{
+    margin-left: 3%;
+ }
+
+ #rg{
+     width: 80%;
+ }
+
+ #div_habilitacao{
+    margin-left: 3%;
+ }
+
+#habilitacao{
+    width: 110%;
+}
+
+#div_veiculo{
+    margin-left: 8.5%;
+}
+
+#veiculo{
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#cabecalho{
+    position:absolute;
+    top: 2%;
+    left: 34%;
+}

@@ -1,0 +1,126 @@
+{
+    "openapi": "3.0.0",
+
+    "info": {
+        "title": "Formulario de Cadastro",
+        "description": "API do formulario de Cadastro",
+        "version": "0.0.1"
+    },
+
+    "servers": [
+        {
+            "url": "http://localhost:5000",
+            "description": "ambiente de desenvolvimento"
+        }
+    ],
+
+    "paths": {
+        "/register": {
+            "post": {
+                "summary": "Cadastro de candidato",
+                "description": "Rota de cadastro de usuário, recebe: nome, cargo, dia, mes, ano, genero, estado_civil, celular, telefone, email, cep, logradouro, numero_logradouro, complemento_logradouro, bairro, cidade, estado, cpf, rg, habilitacao e veiculo",
+                "tags": ["candidato"],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "nome": {
+                                        "type": "string"
+                                    },
+                                    "cargo": {
+                                        "type": "string"
+                                    },
+                                    "dia": {
+                                        "type": "number"
+                                    },
+                                    "mes": {
+                                        "type": "string"
+                                    },
+                                    "ano": {
+                                        "type": "number"
+                                    },
+                                    "genero": {
+                                        "type": "string"
+                                    },
+                                    "estado_civil": {
+                                        "type": "string"
+                                    },
+                                    "celular": {
+                                        "type": "number"
+                                    },
+                                    "telefone": {
+                                        "type": "number"
+                                    },
+                                    "email": {
+                                        "type": "string"
+                                    },
+                                    "cep": {
+                                        "type": "number"
+                                    },
+                                    "logradouro": {
+                                        "type": "string"
+                                    },
+                                    "numero_logradouro": {
+                                        "type": "number"
+                                    },
+                                    "complemento_logradouro": {
+                                        "type": "string"
+                                    },
+                                    "bairro": {
+                                        "type": "string"
+                                    },
+                                    "cidade": {
+                                        "type": "string"
+                                    },
+                                    "estado": {
+                                        "type": "string"
+                                    },
+                                    "cpf": {
+                                        "type": "number"
+                                    },
+                                    "rg": {
+                                        "type": "number"
+                                    },
+                                    "habilitacao": {
+                                        "type": "string"
+                                    },
+                                    "veiculo": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "examples": {
+                                "Cadastro Exemplo":{
+                                    "value":{
+                                        "nome": "Lucimara Moriggi",
+                                        "cargo": "Fullstack Developer",
+                                        "dia": "19",
+                                        "mes": "Outubro",
+                                        "ano": "1990",
+                                        "genero": "Feminino",
+                                        "estado_civil": "Solteiro(a)",
+                                        "celular": "99999999999",
+                                        "telefone": "9999999999",
+                                        "email": "lucimara@lucimara.com",
+                                        "cep": "84015150",
+                                        "logradouro": "Rua Exemplo",
+                                        "numero_logradouro": "3131",
+                                        "complemento_logradouro": "Ap.28",
+                                        "bairro": "Jardim Carvalho",
+                                        "cidade": "Ponta Grossa",
+                                        "estado": "PR",
+                                        "cpf": "12345678912",
+                                        "rg": "123456789",
+                                        "habilitacao": "B",
+                                        "veiculo": "sim"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
