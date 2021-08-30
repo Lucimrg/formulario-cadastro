@@ -70,7 +70,7 @@ function check_form() {
 
 const criarCandidato = async (candidato) => {
 
-    const requisicao = await fetch('https://formulariojobsnet-backend.herokuapp.com/registro', { /**servidor backend externo */
+    const requisicao = await fetch('https://app-cadastro-gama.herokuapp.com/register', { /**servidor backend externo */
         method: "POST",
         headers: {
             'Accept': 'application/json',
